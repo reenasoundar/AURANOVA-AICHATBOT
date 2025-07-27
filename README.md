@@ -5,13 +5,8 @@ This project is an **AI-powered chatbot** built using **transformer models** in 
 ---
 
 ## 📁 Project Structure
-myproject/ ├──accounts /│ 
-              | ├── templates/accounts
-                             │ │ ├── login.html 
-                             │ │ ├── register.html 
-                             | | |── home.html │ 
-              | ├── views.py │ └── ... 
-            ├── myproject/ # Django project settings │ ├── settings.py │ ├── urls.py │ └── ... ├── db.sqlite3 # Django database ├── manage.py # Django management script ├── colab_model_training.ipynb # Google Colab notebook (model training + Gradio) └── README.md </pre>
+myproject/ ├── accounts/ # Django app (handles views, templates, user auth) │ ├── templates/ │ │ ├── login.html │ │ ├── register.html │ │ └── home.html │ ├── views.py │ └── ... ├── myproject/ # Django project settings │ ├── settings.py │ ├── urls.py │ └── ... ├── db.sqlite3 # Django database ├── manage.py # Django management script ├── colab_model_training.ipynb # Google Colab notebook (model training + Gradio) └── README.md </pre>
+
 
 
 
